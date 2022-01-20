@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    height: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon, .logo {
+    color: darkblue;
+    align-self: center;
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.menu-icon {
+     padding-right: 30px;
+     cursor: pointer;
+ }

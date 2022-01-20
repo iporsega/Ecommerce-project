@@ -1,0 +1,27 @@
+{
+  "name": "magazin",
+  "version": "1.0.0",
+  "description": "final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iporsega/Ecommerce-project.git"
+  },
+  "keywords": [
+    "2870"
+  ],
+  "author": "Ioana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iporsega/Ecommerce-project/issues"
+  },
+  "homepage": "https://github.com/iporsega/Ecommerce-project#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.3",
+    "roboto-fontface": "^0.10.0"
+  }
+}
