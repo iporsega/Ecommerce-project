@@ -6,7 +6,8 @@
 window.addEventListener('load', showCards);
 
 async function showCards() {
-    let result = await fetch(`http://localhost:3000/products`);
+    let result = await fetch("https://620c9a6db573632593921e1c.mockapi.io/products/products");
+    console.log(result);
     let getProducts = await result.json();
     
     let output = getProducts.map((product) => `<div class="product-card">

@@ -10,7 +10,7 @@ window.addEventListener('load', async() => {
     
     // Use this for fetch local json
     
-    const result = await fetch(`http://localhost:3000/products`);
+    const result = await fetch("https://620c9a6db573632593921e1c.mockapi.io/products/products");
     const product = await result.json();
     const productFind = product.find(product_id => product_id.id === productId);
     

@@ -2,7 +2,7 @@ const productTableBody = document.querySelector('.admin-products-table');
 const addNewProductBtn = document.querySelector('.add-new-product');
 const updateProductBtn = document.querySelector('.update-product');
 
-const productsURL = 'http://localhost:3000/products';
+const productsURL = "https://620c9a6db573632593921e1c.mockapi.io/products/products";
 
 window.addEventListener('load', getAllProducts);
 
